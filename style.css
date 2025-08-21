@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #23263a;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  background: #2d314b;
+  padding: 32px 40px;
+  border-radius: 16px;
+  margin-top: 40px;
+  box-shadow: 0 4px 24px #0004;
+  min-width: 320px;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 16px;
+}
+.scoreboard {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+.score {
+  font-size: 2em;
+}
+.rounds {
+  text-align: center;
+  margin-bottom: 16px;
+}
+.choices {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+.choices button {
+  background: #23263a;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 16px 24px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.choices button:hover {
+  background: #3a3e5c;
+}
+.result {
+  text-align: center;
+  margin-bottom: 16px;
+  font-size: 1.1em;
+  min-height: 24px;
+}
+.play-again {
+  display: flex;
+  justify-content: center;
+}
+.play-again button {
+  background: #ffb347;
+  color: #23263a;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 24px;
+  font-size: 1em;
+  cursor: pointer;
+  font-weight: bold;
+}
